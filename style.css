@@ -34,4 +34,44 @@ body{
     grid-row:2/4 ;
 }
 
+@media(max-width:900px){
+    .container{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(8,100px);
+    gap: 20px;
+    }
+    #children-1{
+        grid-column:1/2;
+        grid-row:1/2 ;
+    }
+    #children-2{
+        grid-column:1/2;
+        grid-row: 2/3;
+    }
+    #children-3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    #children-4{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    #children-5{
+        grid-column: 1/2;
+        grid-row:5/6 ;
+    }
+    #children-6{
+        grid-column:1/2;
+        grid-row:6/7 ;
+    }
+    #children-7{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    #children-8{
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+
+}
 
